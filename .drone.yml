@@ -45,7 +45,7 @@ steps:
       - name: vol
         path: /website
   - name: preview
-    image: kingsd/drone-oss:v0.0.3
+    image: kingsd/drone-oss:v0.0.4
     settings:
       dist: /website/build
       dist_ignore: img/
