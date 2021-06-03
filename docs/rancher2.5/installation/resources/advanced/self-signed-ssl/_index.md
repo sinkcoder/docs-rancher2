@@ -91,7 +91,7 @@ help ()
     echo  ' --ssl-trusted-ip: 一般ssl证书只信任域名的访问请求，有时候需要使用ip去访问server，那么需要给ssl证书添加扩展IP，多个IP用逗号隔开；'
     echo  ' --ssl-trusted-domain: 如果想多个域名访问，则添加扩展域名（SSL_TRUSTED_DOMAIN）,多个扩展域名用逗号隔开；'
     echo  ' --ssl-size: ssl加密位数，默认2048；'
-    echo  ' --ssl-cn: 国家代码(2个字母的代号),默认CN;'
+    echo  ' --ssl-cn: 国家代码(2个字母的代号),默认CN；'
     echo  ' 使用示例:'
     echo  ' ./create_self-signed-cert.sh --ssl-domain=www.test.com --ssl-trusted-domain=www.test2.com \ '
     echo  ' --ssl-trusted-ip=1.1.1.1,2.2.2.2,3.3.3.3 --ssl-size=2048 --ssl-date=3650'
